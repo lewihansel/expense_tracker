@@ -22,13 +22,13 @@ const AddTransaction = () => {
       <h3>Add new transaction</h3>
       <form id="form" onSubmit={handleSubmit}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Transaction</label>
           <input
             type="text"
             id="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter text..."
+            placeholder="Transaction Name"
           />
         </div>
         <div className="form-control">
